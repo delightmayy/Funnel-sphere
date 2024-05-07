@@ -899,7 +899,7 @@ section {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid var(--color-secondary);
+  border: 3px solid var(--color-secondary);
   color:var(--color-secondary);
 }
 
@@ -956,7 +956,7 @@ section {
   content: "";
   height: 100%;
   width: 100%;
-  background: #eeeeee;
+  background: #1a1422;
   border-radius: 50px;
   z-index: 1;
   top: 10px;
@@ -1007,9 +1007,10 @@ section {
   box-sizing: content-box;
   padding: 30px;
   margin: 30px 10px;
-  box-shadow: 0px 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0 10px #fff;
   position: relative;
-  background: #fff;
+  background: #1a1422;
+  color:white;
   border-radius: 10px;
 }
 
@@ -1023,7 +1024,7 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #000;
+  color: #fff;
 }
 
 .testimonials .testimonial-item h4 {
@@ -1075,12 +1076,12 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color:#fff;
   opacity: 1;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary);
 }
 
 @media (max-width: 767px) {
@@ -1111,6 +1112,7 @@ section {
 
 .portfolio .portfolio-flters li {
   cursor: pointer;
+  color:white;
   display: inline-block;
   padding: 0;
   font-size: 18px;
@@ -1122,7 +1124,7 @@ section {
 
 .portfolio .portfolio-flters li:hover,
 .portfolio .portfolio-flters li.filter-active {
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 .portfolio .portfolio-flters li:first-child {
@@ -1141,7 +1143,7 @@ section {
 }
 
 .portfolio .portfolio-wrap {
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 10px #f2cef1;
   border-radius: 10px;
   height: 100%;
   overflow: hidden;
@@ -1155,8 +1157,9 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info {
   padding: 25px 20px;
-  background-color: #fff;
+  background-color:#1a1422;
   position: relative;
+  color:white;
   border-top: 1px solid #f3f3f3;
   z-index: 2;
 }
@@ -1168,7 +1171,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 a {
-  color: var(--color-default);
+  color:var(--color-secondary);
   transition: 0.3s;
 }
 
@@ -1177,7 +1180,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #6c757d;
+  color: #fff;
   font-size: 14px;
   margin-bottom: 0;
   padding-right: 50px;
@@ -1360,11 +1363,11 @@ section {
 --------------------------------------------------------------*/
 .team .member {
   text-align: center;
-  background: #fff;
+  background: #1a1422;
   border-radius: 10px;
   padding: 15px;
   overflow: hidden;
-  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 10px #fff;
 }
 
 .team .member img {
@@ -1377,6 +1380,7 @@ section {
 }
 
 .team .member h4 {
+  color: var(--color-secondary);
   font-weight: 700;
   margin-top: 16px;
   margin-bottom: 2px;
@@ -1387,7 +1391,7 @@ section {
   font-style: italic;
   display: block;
   font-size: 14px;
-  color: #6c757d;
+  color: #fff;
 }
 
 .team .member p {
@@ -1414,7 +1418,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #ff7fc2;
+  border: 1px solid #fff;
 }
 
 .team .member .social a:hover {
