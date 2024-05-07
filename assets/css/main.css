@@ -1579,6 +1579,7 @@ section {
 .faq .content h3 {
   font-weight: 400;
   font-size: 34px;
+  color:#fff;
 }
 
 .faq .content h4 {
@@ -1589,7 +1590,7 @@ section {
 
 .faq .content p {
   font-size: 15px;
-  color: #6c757d;
+  color: #fff;
 }
 
 .faq .accordion-item {
@@ -1605,6 +1606,8 @@ section {
 
 .faq .accordion-collapse {
   border: 0;
+  color: #fff;
+  background: #1A1422;
 }
 
 .faq .accordion-button {
@@ -1613,9 +1616,9 @@ section {
   border: 0;
   font-size: 18px;
   line-height: 24px;
-  color: var(--color-default);
+  color:#fff;
   text-align: left;
-  background: #fff;
+  background: #1A1422;
   box-shadow: none;
   border-radius: 10px;
 }
@@ -1624,11 +1627,11 @@ section {
   padding-right: 10px;
   font-size: 20px;
   line-height: 0;
-  color: var(--color-primary);
+  color: #fff;
 }
 
 .faq .accordion-button:not(.collapsed) {
-  color: var(--color-primary);
+  color: #fff;
   border-bottom: 0;
   box-shadow: none;
 }
@@ -1637,14 +1640,18 @@ section {
   position: absolute;
   right: 20px;
   top: 20px;
+  color:var(--color-secondary);
+  font-weight: bold;
+  
 }
 
 .faq .accordion-body {
   padding: 0 40px 30px 45px;
   border: 0;
   border-radius: 10px;
-  background: #fff;
+  background:#1A1422 ;
   box-shadow: none;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
