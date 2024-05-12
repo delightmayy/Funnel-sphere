@@ -1586,6 +1586,7 @@ div .dot {
   animation: animate 6s linear infinite;
 } */
 .wrapper div:nth-child(10) {
+ 
   top: 90%;
   left: 80%;
   animation: animate 9s linear infinite;
