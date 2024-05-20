@@ -1793,7 +1793,7 @@ div .dot {
   line-height: 24px;
   color:#fff;
   text-align: left;
-  background: #1A1422;
+  background: #1A1422 ;
   box-shadow: none;
   border-radius: 10px;
 }
@@ -2148,7 +2148,9 @@ div .dot {
 }
 
 .hero .icon-box
-{background-image: url(../img/iconbg/icon3.jpg);}
+{background-image: url(../img/iconbg/icon3.jpg);
+
+}
 
 
 .hero .icon-box .icon {
@@ -2164,6 +2166,8 @@ div .dot {
 
 .hero .icon-box:hover {
   background-image: url(../img/iconbg/icon2.jpg);
+  background-repeat: no-repeat;
+background-size: cover;
 }
 
 .hero .icon-box:hover .title a,
