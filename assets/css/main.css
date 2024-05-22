@@ -10,7 +10,7 @@
 :root {
   --color-default: #222222;
   --color-primary: /* #008374 */ #0a0118fa;
-  --color-secondary: /* #f85a40 */  #ff7fc2;
+  --color-secondary: /* #f85a40 */  #F7A000;
   --bg-color:  rgba(10, 1, 24, 0.944);
   --text-white:  #fff;
 
@@ -76,14 +76,16 @@ section {
   padding-bottom: 20px;
   position: relative;
 }
-
+.section-header:hover h2:after {
+  background: var(--color-secondary);
+}
 .section-header h2:after {
   content: "";
   position: absolute;
   display: block;
   width: 50px;
   height: 3px;
-  background: var(--color-secondary);
+  background: var(--color-primary);
   left: 0;
   right: 0;
   bottom: 0;
@@ -176,7 +178,7 @@ section {
 }
 
 .scroll-top:hover {
-  background:/*  rgba(248, 90, 64, 0.8) */  #ff7fc1ec;
+  background:/*  rgba(248, 90, 64, 0.8) */  #F7A000;
   color: #fff;
 }
 
@@ -234,7 +236,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background:/*  #00796b */  #6b3450cf;
+  background:/*  #00796b */  #664302aa;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -314,7 +316,7 @@ section {
 }
 
 .header .logo h1 span {
-  color:/*  #f96f59 */  #ff7fc1ec;
+  color:/*  #f96f59 */  #F7A000;
 }
 
 .sticked-header-offset {
@@ -673,7 +675,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid/*  rgba(0, 131, 116, 0.7) */  #ff7fc1ec;
+  border: 5px solid/*  rgba(0, 131, 116, 0.7) */  #F7A000;
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -847,7 +849,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid   #ff7fc1ec /* rgba(0, 131, 116, 0.7) */;
+  border: 5px solid  #F7A000 /* rgba(0, 131, 116, 0.7) */;
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -1050,7 +1052,7 @@ section {
 }
 
 .services .service-item:hover .icon:before {
-  background: #ff7fc1ec;
+  background:  #4a3205dc ;
 }
 
 .services .service-item:hover h3 {
@@ -1090,7 +1092,7 @@ section {
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color:#ff7fc2;
+  color:#F7A000;
   margin: 0;
 }
 
@@ -1105,7 +1107,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color:#ff7fc1ec;
+  color:#F7A000;
   font-size: 26px;
   line-height: 0;
 }
@@ -1218,7 +1220,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info {
   padding: 25px 20px;
-  background-color:#1a1422;
+  background-color:#F7A000;
   position: relative;
   color:white;
   border-top: 1px solid #f3f3f3;
@@ -1232,7 +1234,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 a {
-  color:var(--color-secondary);
+  /* color:var(--color-secondary); */
   transition: 0.3s;
 }
 
@@ -1266,7 +1268,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary);
 }
 
 .portfolio-details .swiper-button-prev,
@@ -1278,7 +1280,7 @@ section {
 .portfolio-details .swiper-button-prev:after,
 .portfolio-details .swiper-button-next:after {
   color: rgba(255, 255, 255, 0.8);
-  background-color: rgba(0, 0, 0, 0.2);
+  /* background-color: rgba(0, 0, 0, 0.2); */
   font-size: 24px;
   border-radius: 50%;
   width: 48px;
@@ -1471,7 +1473,7 @@ section {
 }
 
 .team .member .social a {
-  color: #ff7fc2;
+  color: #F7A000;
   transition: 0.3s;
   border-radius: 50%;
   width: 40px;
@@ -1793,7 +1795,7 @@ div .dot {
   line-height: 24px;
   color:#fff;
   text-align: left;
-  background: #1A1422 ;
+  background: #2a2332 ;
   box-shadow: none;
   border-radius: 10px;
 }
@@ -1817,6 +1819,7 @@ div .dot {
   top: 20px;
   color:var(--color-secondary);
   font-weight: bold;
+  background-color: #fff;
   
 }
 
@@ -1912,7 +1915,7 @@ div .dot {
 
 .contact .info-item i {
   font-size: 20px;
-  color: #ff7fc1ec;
+  color: #F7A000;
   float: left;
   width: 44px;
   height: 44px;
@@ -1927,7 +1930,7 @@ div .dot {
 
 .contact .info-item h4 {
   padding: 0;
-  color:#ff7fc1ec;
+  color:#F7A000;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 5px;
@@ -1940,7 +1943,7 @@ div .dot {
 }
 
 .contact .info-item:hover i {
-  background: #ff7fc1ec;
+  background: #F7A000;
   color: var(--color-primary);
 }
 
@@ -1950,7 +1953,7 @@ div .dot {
   color:white;
   background: #1A1422;
   ;
-  box-shadow: 0px 2px 15px #e865a9ec;
+  box-shadow: 0px 2px 15px #F7A000;
   padding: 30px;
   border-radius: 0 10px 10px 0;
 }
@@ -1962,7 +1965,7 @@ div .dot {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background:/*  #df1529 */  #ff7fc1ec;
+  background:/*  #df1529 */  #F7A000;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -2033,7 +2036,7 @@ div .dot {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ff7fc2;
+  background: #F7A000;
 }
 
 @keyframes animate-loading {
@@ -2052,7 +2055,7 @@ div .dot {
 .hero {
   width: 100%;
   position: relative;
-  background: var(--color-primary);
+  background: #0701192d;
   padding: 60px 0 0 0;
 }
 
@@ -2085,13 +2088,14 @@ div .dot {
   border-radius: 50px;
   transition: 0.3s;
   color: #fff;
-  background: rgba(255, 255, 255, 0.1);
+  background: #029df776;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
   border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .hero .btn-get-started:hover {
   border-color: rgba(255, 255, 255, 0.5);
+  background-color: #F7A000;
 }
 
 
@@ -2119,7 +2123,7 @@ div .dot {
     left: 0;
     right: 0;
     height: calc(50% + 20px);
-    background-color:#5B2D48;
+    background-color:#664302aa;
   }
 }
 
@@ -2148,7 +2152,8 @@ div .dot {
 }
 
 .hero .icon-box
-{background-image: url(../img/iconbg/icon3.jpg);
+{background-image:  url(../img/iconbg/icon2.jpg);
+  background-position-x: right;
 
 }
 
@@ -2165,7 +2170,7 @@ div .dot {
 }
 
 .hero .icon-box:hover {
-  background-image: url(../img/iconbg/icon2.jpg);
+  background-image:url(../img/iconbg/icon3.jpg);
   background-repeat: no-repeat;
 background-size: cover;
 }
@@ -2722,7 +2727,7 @@ background-size: cover;
 }
 
 .blog .comments .reply-form .btn-primary:hover {
-  background-color: /* rgba(248, 90, 64, 0.8) */  #ff7fc1ec;
+  background-color: /* rgba(248, 90, 64, 0.8) */  #F7A000;
 }
 
 /*--------------------------------------------------------------
