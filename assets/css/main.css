@@ -1270,6 +1270,7 @@ section {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--color-secondary);
 }
+.portbtn:hover{background-color: var(--color-secondary);}
 
 .portfolio-details .swiper-button-prev,
 .portfolio-details .swiper-button-next {
@@ -2005,6 +2006,7 @@ div .dot {
 
 .contact .php-email-form input,
 .contact .php-email-form textarea {
+  background-color: #888490;
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
