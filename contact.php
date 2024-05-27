@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Send email
-    $to = "scale@woomastas.com";
+    $to = "Sales@thefunnelsphere.com";
     $headers = "From: " . $email;
     if (mail($to, $subject, $message, $headers)) {
         echo "Email sent successfully!";
